@@ -6,17 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		DB2F163B30155E2600D90F5A /* finalprojectlevidaniel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalprojectlevidaniel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		DB2F16953015B2DD00D90F5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F16933015B2DD00D90F5A /* ContentView.swift */; };
+		DB2F16963015B2DD00D90F5A /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F168D3015B2DD00D90F5A /* InsightsView.swift */; };
+		DB2F16973015B2DD00D90F5A /* ChronologyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F16923015B2DD00D90F5A /* ChronologyApp.swift */; };
+		DB2F16983015B2DD00D90F5A /* EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F168C3015B2DD00D90F5A /* EntryDetailView.swift */; };
+		DB2F16993015B2DD00D90F5A /* NewEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F168A3015B2DD00D90F5A /* NewEntryView.swift */; };
+		DB2F169A3015B2DD00D90F5A /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F16883015B2DD00D90F5A /* JournalEntry.swift */; };
+		DB2F169B3015B2DD00D90F5A /* JournalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F168F3015B2DD00D90F5A /* JournalRowView.swift */; };
+		DB2F169C3015B2DD00D90F5A /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F168E3015B2DD00D90F5A /* JournalListView.swift */; };
+		DB2F169D3015B2DD00D90F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2F16913015B2DD00D90F5A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DB2F163D30155E2600D90F5A /* finalprojectlevidaniel */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = finalprojectlevidaniel;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		DB2F163B30155E2600D90F5A /* Chronology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chronology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2F16883015B2DD00D90F5A /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		DB2F168A3015B2DD00D90F5A /* NewEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryView.swift; sourceTree = "<group>"; };
+		DB2F168C3015B2DD00D90F5A /* EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailView.swift; sourceTree = "<group>"; };
+		DB2F168D3015B2DD00D90F5A /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		DB2F168E3015B2DD00D90F5A /* JournalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
+		DB2F168F3015B2DD00D90F5A /* JournalRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRowView.swift; sourceTree = "<group>"; };
+		DB2F16913015B2DD00D90F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB2F16923015B2DD00D90F5A /* ChronologyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronologyApp.swift; sourceTree = "<group>"; };
+		DB2F16933015B2DD00D90F5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DB2F163830155E2600D90F5A /* Frameworks */ = {
@@ -32,7 +45,7 @@
 		DB2F163230155E2600D90F5A = {
 			isa = PBXGroup;
 			children = (
-				DB2F163D30155E2600D90F5A /* finalprojectlevidaniel */,
+				DB2F16943015B2DD00D90F5A /* chronology */,
 				DB2F163C30155E2600D90F5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,9 +53,49 @@
 		DB2F163C30155E2600D90F5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB2F163B30155E2600D90F5A /* finalprojectlevidaniel.app */,
+				DB2F163B30155E2600D90F5A /* Chronology.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2F16893015B2DD00D90F5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB2F16883015B2DD00D90F5A /* JournalEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB2F168B3015B2DD00D90F5A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DB2F168A3015B2DD00D90F5A /* NewEntryView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DB2F16903015B2DD00D90F5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB2F168C3015B2DD00D90F5A /* EntryDetailView.swift */,
+				DB2F168D3015B2DD00D90F5A /* InsightsView.swift */,
+				DB2F168E3015B2DD00D90F5A /* JournalListView.swift */,
+				DB2F168F3015B2DD00D90F5A /* JournalRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB2F16943015B2DD00D90F5A /* chronology */ = {
+			isa = PBXGroup;
+			children = (
+				DB2F16893015B2DD00D90F5A /* Models */,
+				DB2F168B3015B2DD00D90F5A /* ViewModels */,
+				DB2F16903015B2DD00D90F5A /* Views */,
+				DB2F16913015B2DD00D90F5A /* Assets.xcassets */,
+				DB2F16923015B2DD00D90F5A /* ChronologyApp.swift */,
+				DB2F16933015B2DD00D90F5A /* ContentView.swift */,
+			);
+			path = chronology;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,14 +113,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				DB2F163D30155E2600D90F5A /* finalprojectlevidaniel */,
-			);
 			name = finalprojectlevidaniel;
 			packageProductDependencies = (
 			);
 			productName = finalprojectlevidaniel;
-			productReference = DB2F163B30155E2600D90F5A /* finalprojectlevidaniel.app */;
+			productReference = DB2F163B30155E2600D90F5A /* Chronology.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB2F163630155E2600D90F5A /* Build configuration list for PBXProject "finalprojectlevidaniel" */;
+			buildConfigurationList = DB2F163630155E2600D90F5A /* Build configuration list for PBXProject "chronology" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -109,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2F169D3015B2DD00D90F5A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2F16953015B2DD00D90F5A /* ContentView.swift in Sources */,
+				DB2F16963015B2DD00D90F5A /* InsightsView.swift in Sources */,
+				DB2F16973015B2DD00D90F5A /* ChronologyApp.swift in Sources */,
+				DB2F16983015B2DD00D90F5A /* EntryDetailView.swift in Sources */,
+				DB2F16993015B2DD00D90F5A /* NewEntryView.swift in Sources */,
+				DB2F169A3015B2DD00D90F5A /* JournalEntry.swift in Sources */,
+				DB2F169B3015B2DD00D90F5A /* JournalRowView.swift in Sources */,
+				DB2F169C3015B2DD00D90F5A /* JournalListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +325,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = geeu.us.to.finalprojectlevidaniel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = geeu.us.to.chronology;
+				PRODUCT_NAME = Chronology;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -298,8 +357,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = geeu.us.to.finalprojectlevidaniel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = geeu.us.to.chronology;
+				PRODUCT_NAME = Chronology;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -313,7 +372,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB2F163630155E2600D90F5A /* Build configuration list for PBXProject "finalprojectlevidaniel" */ = {
+		DB2F163630155E2600D90F5A /* Build configuration list for PBXProject "chronology" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB2F164430155E2700D90F5A /* Debug */,
