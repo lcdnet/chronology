@@ -12,7 +12,7 @@ struct JournalRowView: View {
     
     var body: some View {
         HStack(spacing: 12) {
-            Text(entry.mood)
+            Text(String(entry.mood.prefix(1)))
                 .font(.title2)
                 .padding(8)
                 .background(Color(.secondarySystemBackground))

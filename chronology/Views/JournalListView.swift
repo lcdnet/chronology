@@ -17,7 +17,7 @@ struct JournalListView: View {
     @State private var selectedCategory = "All"
     @State private var showNewEntrySheet = false
     
-    let categories = ["All", "Personal", "Study", "Ideas", "Favorites"]
+    let categories = ["All", "Favorites", "Personal", "Study", "Ideas", "Health"]
     
     var filteredEntries: [JournalEntry] {
         entries.filter { entry in
